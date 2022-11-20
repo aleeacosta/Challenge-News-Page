@@ -5,17 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="master.css">
+  <link rel="stylesheet" href="master.css">  
   
-  <title>News homepage</title>
+  <title>News homepage</title>  
  
 </head>
 <body>
 
-    <div class="menu__mobile">  
+    <div id="menu__mobile" class="menu__mobile">  
         <div class="mobile-backdrop"></div>
         <div class="mobile-menu">
-            <div class="menu-close">
+            <div id="menu-close" class="menu-close">
                 <img src="/assets/images/icon-menu-close.svg" alt="">
             </div>            
             <ul class="nav-mobile">
@@ -41,15 +41,14 @@
                 <li class="navbar__item">Categories</li>
             </ul>
         </div>
-        <div class="header__menu">
+        <div id="header__menu" class="header__menu">
             <img src="/assets/images/icon-menu.svg" alt="">
         </div>
     </div>
 
     <div class="hero">
         <div class="hero__newsLeft">
-            <div class="newsLeft__top">
-                <img src="/assets/images/image-web-3-desktop.jpg" alt="" class="hero-image">
+            <div class="newsLeft__top">                
             </div>
             <div class="newsLeft__bottom">
                 <div class="newsLeft__bottom-title">
@@ -114,4 +113,5 @@
     </div>
   
 </body>
+<script src="/app.js"></script>
 </html>
