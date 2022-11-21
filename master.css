@@ -78,6 +78,11 @@ body {
     list-style: none; 
 }
 
+.navbar__item:hover {
+    color: var(--orange);
+    cursor: pointer;
+}
+
 .hero {
     display: flex;    
 }
@@ -144,6 +149,11 @@ body {
     margin-top: 25px;
 }
 
+.button-info:hover { 
+    background-color: var(--darkblue);
+    cursor: pointer;
+}
+
 .hero__newsRight {
     width: 30%;
     margin-left: 25px;
@@ -168,6 +178,11 @@ body {
     color: var(--white);
     font-size: 17px;
     margin: 0;
+}
+
+.item-title:hover {
+    color: var(--orange);
+    cursor: pointer;
 }
 
 .item-info {
@@ -221,6 +236,11 @@ body {
     font-size: 16px;
     font-weight: 800;
     color: var(--darkblue);
+}
+
+.info-title:hover {
+    color: var(--orange);
+    cursor: pointer;
 }
 
 .info-content {
